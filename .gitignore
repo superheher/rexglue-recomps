@@ -1,0 +1,53 @@
+# ---------------------------------------------------------------------------
+# Copyrighted game data — NEVER commit. Bring your own legally-obtained dump.
+# ---------------------------------------------------------------------------
+South Park - Let's Go Tower Defense Play!/
+/dump/
+/extracted/
+/private/
+*.xex
+*.xexp
+default.xex
+# STFS / package containers
+*.stfs
+
+# ---------------------------------------------------------------------------
+# Build output
+# ---------------------------------------------------------------------------
+/build/
+**/build/
+/out/
+/cmake-build-*/
+*.o
+*.obj
+*.a
+*.lib
+*.exe
+*.pdb
+*.ilk
+*.exp
+*.dll
+
+# ---------------------------------------------------------------------------
+# Generated recompiler output (huge; reproducible from the XEX + config)
+# ---------------------------------------------------------------------------
+/ppc_recomp/
+/shader_recomp/
+*.gen.cpp
+*.gen.h
+
+# ---------------------------------------------------------------------------
+# Local remotes for the new submodules (kept outside the tree, but ignore if present)
+# ---------------------------------------------------------------------------
+/.gitremotes/
+
+# ---------------------------------------------------------------------------
+# Editor / OS
+# ---------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+.vs/
+.vscode/
+.idea/
+*.user
+*.swp
