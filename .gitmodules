@@ -1,3 +1,9 @@
 [submodule "third_party/rexglue-sdk"]
 	path = third_party/rexglue-sdk
 	url = https://github.com/rexglue/rexglue-sdk
+[submodule "knowledge-base"]
+	path = knowledge-base
+	url = https://github.com/superheher/rexglue-knowledges
+[submodule "south-park-recomp"]
+	path = south-park-recomp
+	url = https://github.com/superheher/south-park-tower-defence-recomp
