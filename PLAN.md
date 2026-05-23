@@ -8,6 +8,13 @@ Background and justification for the approach live in `knowledge-base/`
 (feasibility verdict: **feasible, medium difficulty**). Primary toolchain:
 **rexglue-sdk**; XenonRecomp / XenosRecomp kept as reference/fallback.
 
+This title is a deliberate **onboarding pilot**, so the project has a **second,
+co-equal goal**: grow a **large, reusable, publishable** Xbox 360 recompilation
+knowledge base (`knowledge-base/general/` + `templates/`). Every phase must leave
+that KB richer — promote anything transferable out of the title's case study into
+`general/` so the next port starts ahead. Treat the KB as a first-class
+deliverable, not a byproduct.
+
 > **Legal:** personal preservation / interoperability only. Bring your own dump.
 > No game code or assets are committed; everything derived is git-ignored.
 
@@ -25,8 +32,13 @@ Background and justification for the approach live in `knowledge-base/`
   under `~/xbla-remotes`. (To publish later: re-point URLs to GitHub.)
 - **Verify, don't assume.** Each phase has an acceptance check; record real
   output (build logs, screenshots) rather than declaring success.
-- **Record as you learn.** New imports, hooks, jump tables, engine quirks →
-  knowledge-base.
+- **Record as you learn (and generalize).** New imports, hooks, jump tables,
+  engine quirks → the title's case study (`knowledge-base/titles/<id>/`); then
+  **promote transferable findings into `knowledge-base/general/`** so they help
+  future ports. The KB is a co-equal deliverable.
+- **English only.** All content in every repository here is written in English
+  (commit messages, docs, code comments). Chat with the maintainer may be in
+  another language, but the repos are English.
 
 ---
 
