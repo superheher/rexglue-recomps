@@ -53,9 +53,15 @@ See `knowledge-base/general/30-toolchains.md` for the decision rationale.
 
 ## Status
 
-Base deployed; toolchain studied; feasibility assessed (**feasible, medium
-difficulty**); knowledge base populated. Next: execute `PLAN.md` via
-`GOAL_PROMPT.md` (Phase 0 = install Clang 20+; Phase 1 = extract `default.xex`).
+**2026-06-09 — course reset.** The SDK-track build is **fully playable** on the
+Linux host (boot → menu → match → win → save → continue, audio + input,
+Vulkan). The one open problem is in-match performance: the game field lags from
+the first wave (menus are fine). The from-scratch "variant A"
+(XenonRecomp + own runtime, `south-park-recomp/varianta/`) is **frozen** as a
+research asset. Live state and next steps: **`south-park-recomp/STATUS.md`**
+(single source of truth). Historical investigations:
+`south-park-recomp/docs/archive/` and `south-park-recomp/varianta/archive/`.
+`PLAN.md`/`GOAL_PROMPT.md` are the original roadmap, kept as history.
 
 ## Legal
 
